@@ -1,0 +1,133 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ /* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+ @import "css/reset.css";
+ html, body {
+   margin: 0 auto;
+   margin-left: 0 auto;
+   margin: top right bottom left;
+   margin: top+bottom right+left;
+   margin-right: 0 auto;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 0;
+   padding-bottom: 0;
+   padding-left: 0;
+   padding-right: 0;
+   width: 800px;
+ }
+
+
+
+ h1 {
+   margin-top: 30px;
+   font-family: Roboto;
+ }
+
+ h2 {
+   margin-top: 30px;
+   font-family: Helvetica;
+   margin-bottom: -8px;
+ }
+
+ h3 {
+   margin-top: 30px;
+   font-family: Arial;
+ }
+
+ p, blockquote, ul, li {
+   font-family: Circe;
+
+ }
+
+ ul {
+   list-style-type: disc;
+   margin-bottom: 15px;
+
+ }
+
+ li {
+   margin-bottom: 15px;
+ }
+
+ .blockquote {
+   margin-bottom: -18px;
+   border-left: 1px solid black;
+   padding: 20px 20px;
+   background-color: #f2f2f2;
+ }
+
+ .Prokhorovs_blockquote {
+   margin-bottom: -18px;
+   border-left: 1px solid black;
+   padding: 20px 20px;
+   background-color: #f2f2f2;
+ }
+
+ .ideology {
+   margin-top: 30px;
+
+ }
+
+
+
+ .reinforced_iron {
+   border-left: 1px solid black;
+   padding-left: 20px;
+
+ }
+
+ .architecture {
+   margin-bottom: 10px;
+ }
+
+ .narkomfine_body_list {
+   list-style-type: none;
+   padding-left: 20px;
+ }
+
+ body {
+   position: relative;
+ }
+
+ .navigation_bar {
+   position: fixed;
+   background-color: #f2f2f2;
+   width: 300px;
+   top: 20px;
+   border-radius: 5px;
+   padding-left: 0;
+   left: 0;
+   margin-top: 10px;
+   opacity: 0;
+ }
+
+ .navigation_bar:hover  {
+   opacity: 100;
+   transition: all 2s ease;
+ }
+
+ .navigation_bar a {
+   font-size: 15px;
+   text-decoration: none;
+   color: #000;
+   line-height: 2;
+ }
+
+ .navigation_bar a:hover {
+   font-weight: bold;
+   transition: all 1s ease;
+ } */

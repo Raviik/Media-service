@@ -1,0 +1,156 @@
+// Place all the styles related to the Promo controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+@import "css/reset.css";
+ html {
+	// margin: 0 auto;
+	width: 1440px;
+  font-family: 'Roboto';
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.header_container {
+    background-color: #4B2FEB;
+}
+
+.header {
+  background-color: #4B2FEB;
+}
+
+.header_title {
+ font-size: 56px;
+ padding-left: 122px;
+ color: #ffffff;
+}
+
+.mem_1 {
+  padding-left: 120px;
+  padding-top: 100px;
+}
+
+.emojii_1 {
+  padding-left: 213px;
+  padding-bottom: 54px
+}
+
+.sticker_1 {
+  padding-left: 213px;
+}
+
+.sticker_2 {
+  padding-left: 120px;
+  padding-bottom: 99px;
+}
+
+.emoji_02 {
+  padding-left: 168px;
+  padding-bottom: 151px;
+}
+
+.mem_2 {
+  padding-left: 191px;
+  padding-bottom: 100px;
+}
+
+.about_project__container {
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.section {
+  // display: inline-block;
+}
+
+.phone {
+  padding-left: 120px;
+  padding-top: 165px;
+}
+
+.emoji_3 {
+  padding-left: 750px;
+  margin-bottom: 600px;
+}
+
+.about_project__title {
+  font-size: 38px;
+  vertical-align: middle;
+  padding-left: 607px;
+  margin-bottom: 141px;
+  display: inline-block;
+  margin-top: -800px;
+}
+
+.sticker_3 {
+  padding-left: 1084px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: -40px;
+}
+
+.about_button {
+  padding: 25px 94px 25px 94px;
+  background-color: #FBC027;
+  text-decoration: none;
+  font-size: 32px;
+  color: #111111;
+  border-radius: 50px;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button_wrap {
+  padding-left: 607px;
+  margin-top: -320px;
+}
+
+.footer {
+  background-color: #FBC027;
+}
+
+.footer_title {
+  font-size: 42px;
+  padding-top: 100px;
+  padding-left: 120px;
+}
+
+.email_button {
+  outline: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 590px;
+  text-align: center;
+  // padding-left: 244px;
+  border: 5px solid #4B2FEB;
+  background-color: transparent;
+  font-size: 32px;
+  color: #111111;
+  border-radius: 50px;
+  margin-left: 120px;
+  margin-bottom: 100px;
+}
+
+.about_button:hover {
+  box-shadow: 1px 1px 10px rgba(251,192,39,1);
+}
+
+.submit_button {
+  background-color: #4B2FEB;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  width: 590px;
+  font-size: 32px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  margin-left: 20px;
+}
+
+.submit_button:hover {
+  box-shadow: 1px 1px 10px rgba(75,47,235,1);
+}
